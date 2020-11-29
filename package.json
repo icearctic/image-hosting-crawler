@@ -1,0 +1,25 @@
+{
+  "name": "image-hosting-crawler",
+  "private": true,
+  "version": "1.3.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "crawl": "node lib/crawl.js",
+    "stats": "node lib/stats.js",
+    "update-links": "node lib/update-links.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "~3.8.0",
+    "delay": "~4.4.0",
+    "got": "~11.8.0",
+    "is-jpg": "~2.0.0",
+    "lowdb": "~1.0.0",
+    "p-queue": "~6.6.2",
+    "playwright": "~1.5.2",
+    "split2": "~3.2.2",
+    "winston": "~3.3.3"
+  }
+}
